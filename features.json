@@ -1,0 +1,25 @@
+{
+  "models": [
+    {
+      "name": "gpt3_5",
+      "type": "openai"
+    },
+    {
+      "name": "gpt4",
+      "type": "openai"
+    },
+    {
+      "name": "claude3_5",
+      "type": "anthropic"
+    },
+    {
+      "name": "combined_model",
+      "type": "custom"
+    }
+  ],
+  "routes": [
+    "user",
+    "analytics"
+  ],
+  "default_model": "gpt3_5"
+}
